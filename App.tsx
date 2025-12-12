@@ -1,10 +1,10 @@
 import React from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { VideoProvider } from './contexts/VideoContext';
-import Layout from './components/Layout';
-import InputScreen from './screens/InputScreen';
-import ListScreen from './screens/ListScreen';
-import PlayerScreen from './screens/PlayerScreen';
+import { VideoProvider } from './VideoContext';
+import Layout from './Layout';
+import InputScreen from './InputScreen';
+import ListScreen from './ListScreen';
+import PlayerScreen from './PlayerScreen';
 
 function App() {
   return (
